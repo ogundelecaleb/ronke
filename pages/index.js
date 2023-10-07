@@ -112,7 +112,7 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
@@ -150,7 +150,7 @@ export default function Home() {
               My approach to design is rooted in empathy, user research, and a
               relentless pursuit of excellence. I take pride in my ability to
               translate complex problems into elegant, intuitive designs that
-              solve real user pain points. I'm a strong advocate for
+              solve real user pain points. I am a strong advocate for
               user-centered design principles, and I have a proven track record
               of collaborating with cross-functional teams to deliver successful
               products on time and within budget.
