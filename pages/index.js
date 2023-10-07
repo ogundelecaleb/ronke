@@ -59,7 +59,7 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               A dedicated and creative Product Designer with 3 years of
               experience in designing innovative products that combine
-              functionality and aesthetics. Join me down below and let's get
+              functionality and aesthetics. Join me down below and lets get
               cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -76,7 +76,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a Product designer I've done
+              Since the beginning of my journey as a Product designer I have done
               remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
