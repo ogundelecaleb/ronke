@@ -58,7 +58,7 @@ export default function Home() {
               Product Designer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              A dedicated and creative Product Designer with 3 years of
+              A dedicated and creative Product Designer with 2 years of
               experience in designing innovative products that combine
               functionality and aesthetics. Join me down below and lets get
               cracking!
