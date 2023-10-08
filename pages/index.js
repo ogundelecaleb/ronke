@@ -13,10 +13,10 @@ import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/web1.jpg";
 import web2 from "../public/web2.jpg";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
+import web3 from "../public/web3.jpg";
+import web4 from "../public/web4.jpg";
 import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import web6 from "../public/web6.jpg";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -42,14 +42,14 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="resume.pdf" download={true}
                 >
                   Resume
                 </a>
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center py-6 md:py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Aderonke Ebitigha
             </h2>
@@ -68,7 +68,12 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image
+                src={deved}
+                layout="fill"
+                objectFit="cover"
+                className="h-[250px]  md:h-[380px]"
+              />
             </div>
           </div>
         </section>
@@ -76,14 +81,10 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a Product designer I have done
-              remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use, i have a proven track record
-              of collaborating with cross-functional teams to bring concepts
-              from ideation to market.
+             I am eager to contribute fresh ideas, collaborate with cross-functional
+              teams, and grow professionally in a dynamic design environment.
+              Excited to tackle design challenges and learn from experienced
+              mentors to make a positive impact in the field of product design.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
@@ -106,54 +107,18 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
-              </h3>
-              <p className="py-2">
-                Do you have an idea for your next great website? Lets make it a
-                reality.
-              </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
-            </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
-              <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
-              </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
-            </div>
           </div>
         </section>
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              As a seasoned Product Designer with a passion for creating
-              innovative and user-centric solutions, I thrive on transforming
-              concepts into tangible, delightful products. With 3 years of
-              experience in the field, I possess a deep understanding of the
-              design process, from ideation and prototyping to user testing and
-              final implementation.
-              <br />
-              My approach to design is rooted in empathy, user research, and a
-              relentless pursuit of excellence. I take pride in my ability to
-              translate complex problems into elegant, intuitive designs that
-              solve real user pain points. I am a strong advocate for
-              user-centered design principles, and I have a proven track record
-              of collaborating with cross-functional teams to deliver successful
-              products on time and within budget.
+              Driven by a desire to create impactful and user-friendly products,
+              I am eager to embark on my journey as a product designer and
+              contribute my skills and fresh perspective to innovative design
+              projects. I am excited to collaborate with experienced
+              professionals and contribute to the success of design teams while
+              honing my abilities and advancing my career in product design.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
